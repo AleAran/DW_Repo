@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My half baked portfolio - Contact me</title>
+    <link rel="stylesheet" href="css/BaseStyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="header">
+        <div id="titleContainer">
+            <img src="assets/img/IMG_20210809_182337.jpg" width="64" height="64" alt="Page logo/Avatar goes here" /> <!-- placeholder value-->
+            <h1 class="titleBase">My half baked portfolio</h1>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <input type="button" value="Released works" />
+                    </a>
+                </li>
+                <li>
+                    <a href="SideProjects.html">
+                        <input type="button" value="Side projects" />
+                    </a>
+                </li>
+                <li>
+                    <a href="Career.html">
+                        <input type="button" value="Career" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contactContent" class="content">
+        <h3 id="mailTitle">Send me an email</h3>
+
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="Placholder Name"><br>
+            <label for="mail">Mail:</label>
+            <input type="text" id="mail" name="mail" value="Placholder Mail"><br>
+            <label for="message">Message:</label><br>
+            <input type="text" id="message" name="message" value="Placholder message" style="height:250px; width:150px"><br> <!-- I know this is using later concepts, but I hate a small message box-->
+            <input type="reset" value="Clear All">
+            <input type="submit" value="Send Message">
+        </form>
+        <br />
+    </section>
+
+    <footer id="contactDetails">
+        <h3 id="footerTitle">Contact Info</h3>
+
+        <ul id="footerList">
+            <li>
+                <input type="button" value="LinkedIn" />
+            </li>
+            <li>
+                <input type="button" value="WhatsApp" />
+            </li>
+            <li>
+                <a href="#">
+                    <input type="button" value="Mail" class="selectedButton" />
+                </a>
+            </li>
+            <li>
+                <input type="button" value="Instagram" />
+            </li>
+            <li>
+                <input type="button" value="Facebook" />
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

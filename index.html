@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+    <title>My half baked portfolio - Released works</title>
+    <link rel="stylesheet" href="css/BaseStyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="header">
+        <div id="titleContainer">
+            <img id="profile" src="assets/img/IMG_20210809_182337.jpg" alt="Page logo/Avatar goes here" /> <!-- placeholder value-->
+            <h1 class="titleBase">My half baked portfolio</h1>
+        </div>
+        <div class="gridChild">
+            <ul>
+                <li>
+                    <a href="#">
+                        <input class="selectedButton" type="button" value="Released works" />
+                    </a>
+                </li>
+                <li>
+                    <a href="SideProjects.html">
+                        <input type="button" value="Side projects" />
+                    </a>
+                </li>
+                <li>
+                    <a href="Career.html">
+                        <input type="button" value="Career" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="indexContent" class="content">
+
+        <div class="baseContainer">
+            <div id="mediaContainer">
+                <h2 id="videoTitle">Released project 2</h2>
+                <video id="videoPlayer" autoplay loop muted>
+                    <!--Controls removed, on loop with autplay and mute-->
+                    <source src="assets/video/Test.mp4" type="video/mp4" />
+                </video>
+            </div>
+
+            <div id="tabContainer">
+                <button type="button" class="selectedButton">Project 1</button>
+                <button type="button" class="tabs">Project 2</button> <!-- Future Tab Buttons -->
+            </div>
+
+            <p id="description">
+                Helped on the Tech Design of Franchise Hub rework, it's planning, implementation and skinning.<br />
+                Made TA work on several screens<br />
+                Made UI&BE work on revamped goals<br />
+            </p>
+        </div>
+
+        <!-- We leave this table as an implementation example (and in case a later exercise asks for this), but since it's not part of our design, it will be left commented
+        <table>
+            <tr>
+                <th>Proyect</th>
+                <th>Role</th>
+                <th>Work Done</th>
+            </tr>
+            <tr>
+                <td>Got NDA'd 20xx</td>
+                <td>Fullstack/TA, Design</td>
+                <td>Helped on design and implementation of modes, UI and HUD</td>
+            </tr>
+            <tr>
+                <td>Madden 21</td>
+                <td>Fullstack/TA</td>
+                <td>Helped on implementation of new UI art and refactoring</td>
+            </tr>
+            <tr>
+                <td>Madden 22</td>
+                <td>Fullstack/TA</td>
+                <td>Helped on Tech Design of Franchise Hub Rework, it's implementation and skinning</td>
+            </tr>
+        </table>
+        -->
+    </section>
+    <footer id="contactDetails">
+        <h3 id="footerTitle">Contact Info</h3>
+        <ul id="footerList">
+            <li>
+                <input type="button" value="LinkedIn" />
+            </li>
+            <li>
+                <input type="button" value="WhatsApp" />
+            </li>
+            <li>
+                <a href="ContactForm.html">
+                    <input type="button" value="Mail" />
+                </a>
+            </li>
+            <li>
+                <input type="button" value="Instagram" />
+            </li>
+            <li>
+                <input type="button" value="Facebook" />
+            </li>
+            <!--Dropdown menu created for exercise, will be moved out on final proyect-->
+            <li class="testSubmenuLi">
+                <a href="#">
+                    <input class="selectedButton" type="button" value="DropDownButtonTest" />
+                </a>
+
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <input type="button" value="Released Projects" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="SideProjects.html">
+                            <input type="button" value="Side projects" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Career.html">
+                            <input type="button" value="Career" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contactDetails">
+                            <input type="button" value="Contact" />
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!--Dropdown menu item end-->
+        </ul>
+    </footer>
+</body>
+</html>
