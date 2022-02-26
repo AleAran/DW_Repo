@@ -1,4 +1,4 @@
-﻿/*  
+/*  
     Base styles, don't create another file unless we have some really extensive and specic stuff.
     While there are performance gained on having less .css files to load, monolithic classes are bad practice and should be avoided when possible.
 */
@@ -38,7 +38,11 @@ h1, h2, h3 {
 h1 {
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 12px;
+
+    @media (min-width: 992px) {
+        font-size: 24px;
+      }
 }
 h2 {
     font-style: italic;
@@ -90,8 +94,10 @@ video {
 .disabledButton{
     color:darkgrey;
 }
-
-
+.header {
+    border: double;
+    border-color: lightyellow;
+}
 /* IDs */
 #header {
     border: double;
