@@ -1,0 +1,25 @@
+{
+  "name": "dwproject",
+  "version": "1.0.0",
+  "description": "First attemp at nodejS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/FancyStyle.scss css/BaseStyle.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleAran/DW_Repo.git"
+  },
+  "author": "Merlu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleAran/DW_Repo/issues"
+  },
+  "homepage": "https://github.com/AleAran/DW_Repo#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
